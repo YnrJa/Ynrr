@@ -1,0 +1,79 @@
+/*footer*/
+.footer {
+    float: right;
+    background-image: url(footer.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:80px;
+    width: 100%;
+    position: fixed;
+	bottom: 0;
+    -webkit-transition: display;
+    -moz-transition: display;
+    -mos-transition: display;
+    -filter-transition: display;
+    -o-transition: display;
+    display:flex;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -mos-transition: opacity 1s;
+    -filter-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    opacity: ;
+    
+}
+.sigue {
+    font-size: calc(1.3em + 1vmin);
+}
+.icono {
+    list-style: none;
+    float: left;
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
+    display: -webkit-flexbox;
+    -webkit-flex-direction: row;
+    display: flex;
+}
+.icono li{
+
+    width: 5%;
+    margin: 15%;
+    font-size: 35px;
+}
+
+.icon-facebook {
+    -webkit-transition: color;
+    -moz-transition: color;
+    -ms-transition: color;
+    -o-transition: color;
+    -filter-transition: color;
+    color:;
+    
+}
+
+.icon-facebook:hover {
+    color: Blue;
+}
+.icon-skyper {
+    -webkit-transition: color;
+    -moz-transition: color;
+    -ms-transition: color;
+    -o-transition: color;
+    -filter-transition: color;
+    color:;
+}
+.icon-skype:hover {
+    color: aqua;
+}
+
+.icon-instagram {
+    -webkit-transition: color;
+    -moz-transition: color;
+    -ms-transition: color;
+    -o-transition: color;
+    -filter-transition: color;
+    color:;
+}
+.icon-instagram:hover {
+    color:chocolate;
+}

@@ -1,0 +1,146 @@
+.menupre {
+    
+}
+.siaper {
+    margin-left: 10%;
+    float: left;
+    width: 27%;
+    margin-top: 10%; 
+    list-style: none;
+    height: 15%;
+}
+
+.siaper > li {
+    display: block;
+    width: 100%;
+    font-size: calc(0.9em + 1vmin);
+    width: auto;
+    height: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    background: white;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presupuesto {
+    float: right;
+    display: inline-flex;
+    width: 60%;
+}
+.simple, .avanzado, .personalizado {
+    margin-left: -200%;
+    position: absolute;
+    width: 60%;
+}
+.pido {
+    background: #0099ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.pide {
+    background: #0066ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pedir {
+    background: #0033ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.dise {
+font-size: calc(0.9em + 1vmin);
+position: absolute;
+width: 50%;
+padding: 12px;
+text-align: center;
+border: 1px #0033ff solid ;
+background:white;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 30px;
+-moz-box-shadow:;
+-webkit-box-shadow: rgb(#00CCFF) 5px 5px 10px;
+box-shadow: rgb(150,150,150) 5px 5px 10px;
+    -webkit-transition: width 1s;
+    -o-transition: width 1s;
+    -moz-transition: width 1s;
+    -filter-transition: width 1s;
+    -ms-transition: width 1s;
+    transition: width 1s; 
+    
+}
+.presupuesto > div > ul {
+        -webki-transition: font-size 1.6s; 
+    -o-transition: font-size 1.6s; 
+    -moz-transition: font-size 1.6s; 
+    -filter-transition: font-size 1.6s; 
+    -ms-transition: font-size 1.6s; 
+    transition: font-size 1.6s; 
+    list-style: none;
+}
+.presupuesto > div > ul > li {
+    border: 1px #0066ff solid;    
+}
+
+.dise:hover {
+    width: 95%;
+    height: auto;
+}
+.presupuesto > div > ul:hover {
+    font-size: calc(1.1em + 1vmin);    
+}
+.bordear {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icon-star {
+    color: #ffff33;
+}
+ 
+.personalizado {
+    height: 620px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 900px){
+    .siaper {
+    margin-left: 4%;
+    width: 90%;
+    margin-top: 30%; 
+    list-style: none;
+        }
+    .siaper > li {
+    display: block;
+    width: 75%;
+    font-size: calc(0.9em + 1vmin);
+    height: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    background: white;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+        }
+    .presupuesto {
+    margin-top: -55%;
+    float: none;
+    display: inline-flex;
+    width: 100%;
+        }
+    .simple, .avanzado, .personalizado {
+    margin-left: -200%;
+    margin-top: 20%;
+    padding-left: 10%;
+    position: absolute;
+    width: 150%;
+    }
+    .dise:hover {
+    width:;
+}
+.presupuesto > div > ul:hover {
+    font-size: 0px;    
+}
+    }

@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+body {
+    background-image:url(fondot.png);
+    background-repeat: no-repeat;
+    text-align-last: center;
+    text-align: center;
+    font-family:inherit, sans-serif, fantasy;
+    width: 100%;
+    height: auto;
+    overflow-x:hidden;
+    font-size: calc(0.9em + 1vmin);
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family:serif;
+}
+
+.art {
+    display: inline;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:;
+    width: 100%;
+}
+
+.arttex{
+    font-size: calc(0.9em + 1vmin);
+    float: left;
+    text-align: justify;
+    margin-top:2%;
+    width: 30%;
+    margin-left: 5%;
+}
+
+
+.responsive {
+    width: 55%;
+    height: 350px;
+}
+
+.billgates {
+    font-size: calc(1em + 1vmin);
+    display: inline;
+    width: 95%;    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .art {
+        height: 330px;
+        width: 100%;
+    }
+    
+    .arttex{
+    margin-top: 200px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    float: left;
+}
+.responsive {
+    width: 60%;
+    float: right;
+}
+.billgates {
+    font-size: calc(1em + 1vmin);
+    width: 95%;    
+}
+}
+
+
+@media screen and (min-width: 0px) and (max-device-width: 500px) {
+    .art {
+        height: 330px;
+        width: 100%;
+    }
+    .responsive {
+        float: none;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 250px;
+    }
+    .arttex{
+        float: none;
+        width: 90%;
+    }
+    .sigue {
+    float: left;
+    width: 30%;
+}
+    .icon {
+    display:inline-flex;
+    float: right;
+    width: 70%;
+    font-size: 23%;
+}
+    .billgates {
+    font-size: calc(1em + 1vmin);
+    width: 95%;    
+}
+    
+}
+    
+@media screen and (min-width: 501px) and (max-device-width: 899px) {
+    .art {
+        height: 50px;
+        width: 100%;
+    }
+    .responsive {
+        float: none;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .arttex{
+        margin-top: 0;
+        float: none;
+        width: 90%;
+    }
+    .sigue {
+    float: left;
+    width: 30%;
+}
+    .icon {
+    display:inline-flex;
+    float: right;
+    width: 70%;
+    font-size: 23%;
+}
+    .billgates {
+    font-size: calc(1em + 1vmin);
+    width: 95%;
+    height: auto;
+    height: 20px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 900px) and (max-device-width : 1024px) {
+    .art {
+        height:320px;
+        width: 100%;
+    }
+    .arttex{
+    margin-left: 5%;
+    left: auto;
+    font-size: calc(1em + 1vmin);
+    float: left;
+    text-align: justify;
+    margin-top:4%;
+    width: 30%;
+    }
+
+
+    .responsive {
+    margin-top: 7%;
+    float: right;
+    width: 60%;
+    height: 350px;
+    margin-right: 40px;
+    }
+
+    }
+    .sigue {
+    float: left;
+    width: 30%;
+}
+    .icon {
+    display:inline-flex;
+    float: right;
+    width: 70%;
+    font-size: 23%;
+}   
+}
+
+

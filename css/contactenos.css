@@ -1,0 +1,142 @@
+.contacto ul {
+    text-align: center;
+    list-style: none;
+    font-size: calc(1em + 1vmin);
+    width: 80%;
+}
+
+.contacto ul li {
+    margin-top: 4%;
+}
+.contac {
+    width: 90%;
+}
+
+.correo {
+    border-radius: 50px;
+    background: #113a66;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 60px;
+
+}
+
+.telefon {
+    border-radius: 50px;
+    background: #113a66;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 60px;
+}
+
+.icon-mail {
+    color:black;
+}
+
+.icon-mobile {   
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 480px) {
+    .contacto ul {
+        margin-top: 100px;
+    }
+    .correo {
+    border-radius: 50px;
+    background: #113a66;
+    width: 100%;
+    height: 50px;
+}
+    .telefon {
+    border-radius: 50px;
+    background: #113a66;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 40px;
+}
+}
+
+@media only screen and (min-device-width : 320px) {
+    .contac {
+    margin-left: -6%;
+    width: 100%;
+    }
+    .contacto ul {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .correo {
+    border-radius: 50px;
+    background: #113a66;
+    width: 104%;
+    height: 50px;
+}
+    .telefon {
+    border-radius: 50px;
+    background: #113a66;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+}
+}
+
+@media only screen and (min-device-width : 490px) and (max-device-width : 700px) {
+    .contacto ul {
+        margin-top: 100px;
+    }
+    .correo {
+    border-radius: 50px;
+    background: #113a66;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+}
+    .telefon {
+    border-radius: 50px;
+    background: #113a66;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40px;
+}
+}
+
+@media only screen and (min-device-width : 701px) and (max-device-width : 1024px) {
+    .contacto ul {
+        margin-top: 100px;
+    }
+    .correo {
+    border-radius: 50px;
+    background: #113a66;
+    width: 65%;
+    height: 50px;
+}
+    .telefon {
+    border-radius: 50px;
+    background: #113a66;
+    width: 50%;
+    height: 40px;
+}
+}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 2024px) {
+    .contacto ul {
+        margin-top: 100px;
+    }
+    .correo {
+    border-radius: 50px;
+    background: #113a66;
+    width: 65%;
+    height: 50px;
+}
+    .telefon {
+    border-radius: 50px;
+    background: #113a66;
+    width: 50%;
+    height: 40px;
+}    
+}

@@ -1,0 +1,64 @@
+.condiv {
+    margin-top: 10%;
+}
+
+.jefeconflex{
+    height: auto;
+    min-width: 200%;
+    max-width: 200%;
+}
+.conflex {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: inline-flex;
+    position:;
+}
+
+.divinicio, .divdesarrollo, .divpresupuesto, .divcontactenos {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+}
+.divinicio {
+    margin-top:50px ;
+    margin-left: 2%;
+    margin-right: 1%;
+    height: auto;
+    right: ;
+    left: 0%;
+}
+
+.divdesarrollo {
+    left: -200%;
+}
+.divpresupuesto {
+    left: -200%;
+}
+.divcontactenos {
+    left: -200%;
+}
+
+@media screen and (min-width: 550px) and (max-device-width: 850px) {
+    .divdesarrollo {
+    margin-top: 7%;
+}
+    
+}
+
+@media screen and (min-width: 200px) and (max-device-width: 549px) {
+    .divdesarrollo {
+        margin-top: 12%;
+    }
+    .divcontactenos {
+        margin-bottom: 80px;
+        height: 350px;
+    }
+    .divinicio {
+        height: 600px;
+    }
+    .divdesarrollo {
+    height: 1000px;
+}
+}
